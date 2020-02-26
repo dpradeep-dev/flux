@@ -226,8 +226,8 @@ kube:
     preferences: {}
     users: []
 # For https://github.com/justinbarrick/fluxcloud/
-# additionalArgs:
-# - --connect=ws://fluxcloud
+additionalArgs:
+- --connect=ws://fluxcloud
 
 # The contents of the secret will be defined as environment variables
 # in the Flux container. Once defined, you can use the variables in your
